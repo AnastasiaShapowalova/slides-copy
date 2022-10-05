@@ -13,12 +13,12 @@ const STYLES = {
   white: {
    name: 'white',
    var: '--neutral',
-   defaultValue: '#fff'
+   defaultValue: '#ffffff'
   },
   black: {
    name: 'black',
    var: '--neutral',
-   defaultValue: '#000'
+   defaultValue: '#000000'
   }
  },
  FONT_SIZES: {

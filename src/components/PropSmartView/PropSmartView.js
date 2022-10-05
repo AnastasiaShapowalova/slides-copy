@@ -11,8 +11,8 @@ const PropSmartView = ({
   onChange,
   isColorPicker
 }) => {
-  console.log(name)
-  return (
+
+	return (
     <>
     {name !== '_options' ?  
     (<div>
