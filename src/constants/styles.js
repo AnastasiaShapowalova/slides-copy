@@ -216,19 +216,19 @@ const STYLES = {
   },
   _options: [
    {
-    name: 'white',
-    var: '--white',
-    value: 'var(--white)'
+    name: 'primary',
+    var: '--background-primary',
+    value: 'var(--background-primary)'
    },
    {
-    name: 'accent',
-    var: '--accent',
-    value: 'var(--accent)'
+    name: 'secondary',
+    var: '--background-secondary',
+    value: 'var(--background-secondary)'
    },
    {
-    name: 'dark',
-    var: '--neutral',
-    value: 'var(--neutral)'
+    name: 'tetriary',
+    var: '--background-tetriary',
+    value: 'var(--background-tetriary)'
    }
   ]
  }
