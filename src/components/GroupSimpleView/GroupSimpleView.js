@@ -1,6 +1,7 @@
 import React from "react"
 
 const GroupSimpleView = ({ name, children }) => {
+
 	return (
 		<div>
 			<strong>{name}</strong>

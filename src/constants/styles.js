@@ -200,40 +200,35 @@ const STYLES = {
  },
  SCREEN_BACKGROUNDS: {
   default: { 
-   name: 'default', 
+   name: 'primary', 
    var: '--screen-bg-default',
-   defaultValue: 'var(--white)'
+   defaultValue: 'var(--screen-bg-default)'
   },
   accent: { 
-   name: 'accent', 
+   name: 'secondary', 
    var: '--screen-bg-accent',
    defaultValue: 'var(--accent)'
   },
   dark: { 
-   name: 'dark', 
+   name: 'tetriary', 
    var: '--screen-bg-dark',
    defaultValue: 'var(--neutral)'
   },
   _options: [
    {
-    name: 'accent',
-    var: '--accent',
-    value: 'var(--accent)'
+    name: 'primary',
+    var: '--screen-bg-default',
+    value: 'var(--screen-bg-default)'
    },
    {
-    name: 'neutral',
-    var: '--neutral',
-    value: 'var(--neutral)'
+    name: 'secondary',
+    var: '--screen-bg-secondary',
+    value: 'var(--screen-bg-secondary)'
    },
    {
-    name: 'white',
-    var: '--white',
-    value: 'var(--white)'
-   },
-   {
-    name: 'black',
-    var: '--black',
-    value: 'var(--black)'
+    name: 'tetriary',
+    var: '--screen-bg-tetriary',
+    value: 'var(--screen-bg-tetriary)'
    }
   ]
  }

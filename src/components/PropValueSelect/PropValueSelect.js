@@ -1,4 +1,5 @@
-const PropValueSelect = ({defaultValue, v, options, onChange}) => {
+const PropValueSelect = ({defaultValue, v, options, onChange, isOptions}) => {
+
 	return (
 		<select 
 			defaultValue={defaultValue}
@@ -6,7 +7,7 @@ const PropValueSelect = ({defaultValue, v, options, onChange}) => {
 		>
 			{options?.map((option) => {
 				return (
-					<option key={option.value} value={option.value}>{option.name}</option>
+					<option key={option.value} value={option.value}>{option.name}</option> 
 				)
 			})}
 		</select>

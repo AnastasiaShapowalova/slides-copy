@@ -8,14 +8,19 @@ const PropSmartView = ({
 	v,
 	inputComponent,
 	selectComponent,
-	onChange
+	onChange,
+	isColorPicker
 }) => {
+	console.log(name)
 	return (
-		<div>
-			{name}
-			{isOptionsExists ? React.cloneElement(selectComponent, { options, defaultValue, v, onChange }) 
-											 : React.cloneElement(inputComponent, { defaultValue, v, onChange })}
-		</div>
+		<>
+		{name !== '_options' ?  
+		(<div>
+				{name}
+				{isOptionsExists ? React.cloneElement(selectComponent, { options, defaultValue, v, onChange }) 
+												: React.cloneElement(inputComponent, { defaultValue, v, onChange, isColorPicker })}
+		</div>) : null}
+		</>
 	)
 }
 

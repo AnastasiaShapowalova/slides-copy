@@ -11,7 +11,7 @@ function App() {
 		color: 'accent',
 		bg: 'default'
 	})
-
+console.log(state)
 	const update = (type, value) => {
 		setState((prev) => ({ ...prev, [type]: value }))
 	}
