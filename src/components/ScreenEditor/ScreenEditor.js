@@ -1,6 +1,7 @@
 import STYLES from '../../constants/styles'
 
 const TextEditor = ({ update, defaultValues }) => {
+	console.log(STYLES.SCREEN_BACKGROUNDS)
   return (
     <div>
       <select defaultValue={defaultValues.fs} onChange={(e) => update('bg', e.target.value)}>
