@@ -2,7 +2,7 @@ import React from "react"
 
 const GroupList = ({ list, children }) => {
 
-  return (
+	return (
     <>
       {list.map((item) => React.cloneElement(children, { name: item }))}
     </>

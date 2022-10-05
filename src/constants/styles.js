@@ -1,4 +1,5 @@
 const STYLES = {
+  /* COLORS */
  COLORS: {
   accent: {
    name: 'accent',
@@ -12,15 +13,16 @@ const STYLES = {
   },
   white: {
    name: 'white',
-   var: '--neutral',
+   var: '--white',
    defaultValue: '#ffffff'
   },
   black: {
    name: 'black',
-   var: '--neutral',
+   var: '--black',
    defaultValue: '#000000'
   }
  },
+  /* TYPOGRAPHY */
  FONT_SIZES: {
   h1: { 
    name: 'h1',
@@ -73,6 +75,7 @@ const STYLES = {
    defaultValue: '10px'
   },
  },
+  /* TYPOGRAPHY */
  LINE_HEIGHTS: {
   h1: { 
    name: 'h1',
@@ -125,6 +128,7 @@ const STYLES = {
    defaultValue: '16px'
   },
  },
+  /* MEDIATORS */
  TEXT_COLORS: {
   default: {
    name: 'default',
@@ -159,6 +163,7 @@ const STYLES = {
    }
   ]
  },
+  /* MEDIATORS */
  BACKGROUNDS: {
   primary: { 
    name: 'primary', 
@@ -198,6 +203,7 @@ const STYLES = {
    }
   ]
  },
+  /* COMPONENTS */
  SCREEN_BACKGROUNDS: {
   default: { 
    name: 'default', 

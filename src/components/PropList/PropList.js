@@ -6,7 +6,7 @@ const PropList = ({ group, children }) => {
   const isOptionsExists = !!STYLES[group]._options?.length
   const isColorPicker = group === 'COLORS'
 
-  return (
+	return (
     <>
       {Object.keys(STYLES[group]).map((item) => React.cloneElement(children, { 
         key: STYLES[group][item].name,
